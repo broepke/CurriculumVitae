@@ -1,146 +1,80 @@
-\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+\documentclass[11pt,a4paper]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
 
 % moderncv themes
-\moderncvstyle{casual}                             % style options are 'casual' (default), 'classic', 'banking', 'oldstyle' and 'fancy'
+\moderncvstyle{classic}                             % style options are 'casual' (default), 'classic', 'banking', 'oldstyle' and 'fancy'
 \moderncvcolor{blue}                               % color options 'black', 'blue' (default), 'burgundy', 'green', 'grey', 'orange', 'purple' and 'red'
-%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+\renewcommand{\familydefault}{\rmdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
 %\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
 
-% character encoding
-%\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
-%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
-
 % adjust the page margins
-\usepackage[scale=0.75]{geometry}
-\setlength{\footskip}{122.40004pt}                 % depending on the amount of information in the footer, you need to change this value. comment this line out and set it to the size given in the warning
-%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
-%\setlength{\makecvheadnamewidth}{10cm}            % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+\usepackage[scale=0.77]{geometry}
+% \setlength{\footskip}{122.40004pt}                % depending on the amount of information in the footer, you need to change this value. comment this line out and set it to the size given in the warning
+% \setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+% \setlength{\makecvheadnamewidth}{10cm}            % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
 
 % personal data
 \name{Brian}{Roepke}
-\title{Data Science and Analytics Leader}                               % optional, remove / comment the line if not wanted
+\title{Data Science \& Analytics Leader}                               % optional, remove / comment the line if not wanted
 % \address{Street}{Zip}{USA}% optional, remove / comment the line if not wanted; the "postcode city" and "country" arguments can be omitted or provided empty
 % \phone[mobile]{+1~(555)~555~5555}                   % optional, remove / comment the line if not wanted; the optional "type" of the phone can be "mobile" (default), "fixed" or "fax"
-\email{brian@roepkeb.com}                               % optional, remove / comment the line if not wanted
-\homepage{www.roepkeb.com}                         % optional, remove / comment the line if not wanted
+\email{brian@roepkeb.com}
+\homepage{www.roepkeb.com}
 
 % Social icons
-\social[linkedin]{broepke}                        % optional, remove / comment the line if not wanted
-\social[twitter]{@broepke}                             % optional, remove / comment the line if not wanted
-\social[github]{broepke}                              % optional, remove / comment the line if not wanted
+\social[linkedin]{broepke}
+\social[twitter]{@broepke}
+\social[github]{broepke}
 
 
-%----------------------------------------------------------------------------------
-%            content
-%----------------------------------------------------------------------------------
 \begin{document}
-%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
-%-----       resume       ---------------------------------------------------------
 \makecvtitle
+
+I lead an Analytics \& Insights team for a large cloud platform. We are a group of passionate Data Scientists and Analysts that enable data-driven decision-making through insights that optimize the platform's business, product, and cost. \\
+
+I am a certified practitioner of Human-Centered Design and love utilizing its methods and techniques to bring out the best in people and build the most innovative, inclusive solutions. I have a long history in product management that I leverage to deliver everything I do, from ML pipelines to Dashboards as products. I focus on delivering high value, great user experience, and the right outcomes. I'm passionate about diversity and inclusion and a curious, lifelong learner.
+\section{Experience}
+\cventry{2021--Current}{Director, Analytics \& Insights}{Autodesk, Inc.}{San Francisco, CA}{}{Formed a new Data Science and Analytics practice from scratch enabling data-driven decision making across the company's cloud platform.\newline{}
+\begin{itemize}
+\item Built ELT data pipelines for the company's API traffic handling 100's of billions of calls and tens of terabyes of data.
+\item Led the creation of new analytics tools for the instrumentation and onboarding of web services to the analytics stack.
+\item Drove multiple cost savings initiatives around the utilization of public cloud resources identifiying millions of dollars in opportunity.
+\end{itemize}}
+\cventry{2016--2021}{Sr. Director, Head of Product}{Autodesk}{San Francisco}{}{Led the creation of a multi-year strategy and roadmap for the cloud platform, including reusable capabilities, a differentiated data strategy, and a developer ecosystem.\newline{}
+\begin{itemize}
+\item Raised customer trust in the platform by launching a SaaS Excellence program used by 4,000+ developers while scaling platform utilization 10x over 36 months. 
+\item Grew developer ecosystem 300\% over 36 months across second-and-third parties.
+\item Led the creation of data services that currently manage 90\% of Autodesk data.
+\item Transformed execution and operations, bringing a customer-centered "Platform as a Product" approach leveraging Scaled Agile and growing a Product organization of over 100 Product Managers, Designers, Researchers, Developer Advocates, and Data Analysts.\newline{}
+\end{itemize}}
+\cventry{2012--2016}{Sr. Director, Product Lifecycle Mgmt}{Autodesk}{San Francisco}{}{Leader of product organization launching disruptive SaaS Product Lifecycle Management applications.\newline{}
+\begin{itemize}
+  \item Grew from 0 to 10,000+ Enterprise Users with 98\% retention rates in 36 months.
+  \item Grew Customer Accounts by 125\% in 12 months via targeted Strategic Alliances.
+  \item Led product strategy for five acquisitions across PLM, IoT, and CTO.d
+  \item Lead a team of 250 people through agile transformation, improving the ability to deliver software.
+  \end{itemize}}
+\cventry{2001--2012}{Product Management Leader}{Autodesk, Inc.}{Portland, OR}{}{Grew a product line from zero to \$50M with 500K users globally. Led the development of Go-to-Market strategies for Data Management applications in the Manufacturing space driving high growth in multiple strategic regions. Grew revenue 150\%+ Y/Y. Grew channel partners selling the product line by 500\%.}
+\cventry{1999--2001}{Founder and CEO}{truEInnovations, Inc.}{Eagan, MN}{}{Founded a startup developing data/document management solutions for manufacturers. Identified an unmet market need and conceived and developed the product to address this need. Drove the asset acquisition with Autodesk in December of 2002. The flagship product became one of the most widely adopted products at Autodesk.\newline{}}
+
+\section{Skills}
+\cvskillentry*{Programming:}{4}{Python}{5}{Heavy use in Notebooks as well as OOP.}
+\cvskillentry{}{4}{SQL}{10}{Extensive experience working with SQL incluqing Schema design.}
+\cvskillentry{}{3}{R}{2}{Experienced with R with multiple analysis projects completed including work with NLP libraries.}
+\cvskillentry*{ML \& NLP:}{4}{ML}{3}{Experience building regression and classification models}
+\cvskillentry*{}{3}{NLP}{3}{Experience with NLP techniques such as TF-IDF, Topic Modeling, and Sentiment Analysis.}
+\cvskillentry*[1em]{Methods}{5}{Agile}{12}{Extensive experiecne in Agile methodologies.}
+\cvskillentry*{}{5}{PM}{20}{Deep experience in Product Management and leading PM teams.}
+\cvskillentry*{}{4}{UX}{10}{Certfied Facilitator in HCD and Design Thinking.}
 
 \section{Education}
 \cventry{2020--2021}{BSc Data Analytics}{Golden Gate University}{San Francisco, CA}{\textit{4.0}}{Summa Cum Laude}  % arguments 3 to 6 can be left empty
-\cventry{1995--1996}{AA Machine Tool Processes}{Saint Paul College}{St. Paul, MN}{\textit{4.0}}{Description}
+\cventry{1995--1996}{AA Machine Tool Processes}{Saint Paul College}{St. Paul, MN}{\textit{4.0}}{}
 
-\section{Experience}
-\cventry{year--year}{Job title}{Employer}{City}{}{General description no longer than 1--2 lines.\newline{}
-Detailed achievements:
-\begin{itemize}
-\item Achievement 1
-\item Achievement 2
-\item Achievement 3
-\item Achievement 4
-\end{itemize}}
-\cventry{year--year}{Job title}{Employer}{City}{}{Description line 1\newline{}Description line 2\newline{}Description line 3}
-\cventry{year--year}{Job title}{Employer}{City}{}{Description}
-
-\section{Languages}
-\cvitemwithcomment{Language 1}{Skill level}{Comment}
-\cvitemwithcomment{Language 2}{Skill level}{Comment}
-\cvitemwithcomment{Language 3}{Skill level}{Comment}
-\cvitemwithcomment{Language 4}{Skill level}{Comment}
-
-\section{Computer skills}
-\cvdoubleitem{category 1}{XXX, YYY, ZZZ}{category 4}{XXX, YYY, ZZZ}
-\cvdoubleitem{category 2}{XXX, YYY, ZZZ}{category 5}{XXX, YYY, ZZZ}
-\cvdoubleitem{category 3}{XXX, YYY, ZZZ}{category 6}{XXX, YYY, ZZZ}
-
-\section{Skill matrix}
-\cvitem{Skill matrix}{Alternatively, provide a skill matrix to show off your skills}
-%% Skill matrix as an alternative to rate one's skills, computer or other. 
-
-%% Adjusts width of skill matrix columns. 
-%% Usage \setcvskillcolumns[<width>][<factor>][<exp_width>]
-%% <width>, <exp_width> should be lengths smaller than \textwidth, <factor> needs to be between 0 and 1.
-%% Examples:
-% \setcvskillcolumns[5em][][]%    adjust first column. Same as \setcvskillcolumns[5em]
-% \setcvskillcolumns[][0.45][]%   adjust third (skill) column. Same as \setcvskillcolumns[][0.45]
-% \setcvskillcolumns[][][\widthof{``Year''}]%     adjust fourth (years) column.
-% \setcvskillcolumns[][0.45][\widthof{``Year''}]%
-% \setcvskillcolumns[\widthof{``Languag''}][0.48][]
-% \setcvskillcolumns[\widthof{``Languag''}]%
-
-%% Adjusts width of legend columns. Usage \setcvskilllegendcolumns[<width>][<factor>]
-%% <factor> needs to be between 0 and 1. <width> should be a length smaller than \textwidth
-%% Examples:
-% \setcvskilllegendcolumns[][0.45]
-% \setcvskilllegendcolumns[\widthof{``Legend''}][0.45]
-% \setcvskilllegendcolumns[0ex][0.46]% this is usefull for the banking style
-
-%% Add a legend if you are using \cvskill{<1-5>} command or \cvskillentry
-%% Usage \cvskilllegend[*][<post_padding>][<first_level>][<second_level>][<third_level>][<fourth_level>][<fifth_level>]{<name>}
-% \cvskilllegend % insert default legend without lines
-\cvskilllegend*[1em]{}% adjust post spacing
-% \cvskilllegend*{Legend}%  Alternatively add a description string
-%% adjust the legend entries for other languages, here German
-% \cvskilllegend[0.2em][Grundkenntnisse][Grundkenntnisse und eigene Erfahrung in Projekten][Umfangreiche Erfahrung in Projekten][Vertiefte Expertenkenntnisse][Experte\,/\,Spezialist]{Legende}
-
-%% Alternative legend style with the first three skill levels in one column
-%% Usage \cvskillplainlegend[*][<post_padding>][<first_level>][<second_level>][<third_level>][<fourth_level>][<fifth_level>]{<name>}
-% \setcvskilllegendcolumns[][0.6]%  works for classic, casual, banking
-% \setcvskilllegendcolumns[][0.55]%  works better for oldstyle and fancy
-% \cvskillplainlegend{}
-% \cvskillplainlegend[0.2em][Grundkenntnisse][Grundkenntnisse und eigene Erfahrung in Projekten][Umfangreiche Erfahrung in Projekten][Vertiefte Expertenkenntnisse][Experte/Guru]{Legende}
-
-%% Add a head of the skill matrix table with descriptions.
-%% Usage \cvskillhead[<post_padding>][<Level>][<Skill>][<Years>][<Comment>]%
-\cvskillhead[-0.1em]%   this inserts the standard legend in english and adjust padding
-%% Adjust head of the skill matrix for other languages
-% \cvskillhead[0.25em][Level][F\"ahigkeit][Jahre][Bemerkung]
-
-%% \cvskillentry[*][<post_padding>]{<skill_cathegory>}{<0-5>}{<skill_name>}{<years_of_experience>}{<comment>}% 
-%% Example usages:
-\cvskillentry*{Language:}{3}{Python}{2}{I'm so experienced in Python and have realised a million projects. At least.}
-\cvskillentry{}{2}{Lilypond}{14}{So much sheet music! Man, I'm the best!}
-\cvskillentry{}{3}{\LaTeX}{14}{Clearly I rock at \LaTeX}
-\cvskillentry*{OS:}{3}{Linux}{2}{I only use Archlinux btw}% notice the use of the starred command and the optional 
-\cvskillentry*[1em]{Methods}{4}{SCRUM}{8}{SCRUM master for 5 years}
-%% \cvskill{<0-5>} command
-% \cvitem{\textbackslash{cvskill}:}{Skills can be visually expressed by the \textbackslash{cvskill} command, e.g. \cvskill{2}}
-
-\section{Interests}
-\cvitem{hobby 1}{Description}
-\cvitem{hobby 2}{Description}
-\cvitem{hobby 3}{Description}
-
-\section{Extra 1}
-\cvlistitem{Item 1}
-\cvlistitem{Item 2}
-\cvlistitem{Item 3. This item is particularly long and therefore normally spans over several lines. Did you notice the indentation when the line wraps?}
-
-\section{Extra 2}
-\cvlistdoubleitem{Item 1}{Item 4}
-\cvlistdoubleitem{Item 2}{Item 5}
-\cvlistdoubleitem{Item 3}{Item 6. Like item 3 in the single column list before, this item is particularly long to wrap over several lines.}
-
-\section{References}
-\begin{cvcolumns}
-  \cvcolumn{Category 1}{\begin{itemize}\item Person 1\item Person 2\item Person 3\end{itemize}}
-  \cvcolumn{Category 2}{Amongst others:\begin{itemize}\item Person 1, and\item Person 2\end{itemize}(more upon request)}
-  \cvcolumn[0.5]{All the rest \& some more}{\textit{That} person, and \textbf{those} also (all available upon request).}
-\end{cvcolumns}
+\section{Certifications}
+\cvitem{\textbullet}{Certified Facilitator of Human-Centered Design from LUMA Institute}
+\cvitem{\textbullet}{Digital Product Management from Boston University}
+\cvitem{\textbullet}{Data Science MicroMasters from UC San Diego}
+\cvitem{\textbullet}{Agile Project Management from University System of Maryland}
+\cvitem{\textbullet}{Measuring and Managing Reliability from Google Cloud}
 
 \end{document}
-
-
-%% end of file `template.tex'.
