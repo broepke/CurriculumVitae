@@ -1,0 +1,10 @@
+\section{Skills}
+\cvskillhead[-0.1em]
+\cvskillentry*{Programming:}{4}{Python}{5}{My Goto language for Data Science and generalized programming}
+\cvskillentry{}{4}{SQL}{10}{Extensive experience working with SQL including Schema design}
+\cvskillentry{}{3}{R}{2}{Utilized R on multiple projects including work with NLP libraries}
+\cvskillentry*{Artificial Intelligence:}{4}{ML}{3}{Regression and classification models with both supervised and unsupervised methods.}
+\cvskillentry*{}{3}{NLP}{3}{NLP techniques such as TF-IDF, Topic Modeling, and Sentiment Analysis}
+\cvskillentry*{Methods:}{5}{PM}{20}{Deep experience in Product Management and leading PM teams}
+\cvskillentry*{}{5}{Agile}{12}{Depth in Agile practices including team tranformation}
+\cvskillentry*{}{4}{UX}{10}{Certfied Facilitator in Human Centered Design and Design Thinking}

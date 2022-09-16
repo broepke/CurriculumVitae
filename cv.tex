@@ -1,78 +1,86 @@
-\documentclass[11pt,a4paper]{moderncv}                
+\documentclass[11pt,a4paper]{moderncv}
 
 % moderncv themes
-\moderncvstyle{classic}                               
-\moderncvcolor{black}                                  
-\renewcommand{\familydefault}{\rmdefault}             
-%\nopagenumbers{}                                     
+\moderncvstyle{classic}
+\moderncvcolor{blue}
+\renewcommand{\familydefault}{\rmdefault}
+% \nopagenumbers{}
 
 % adjust the page margins
 \usepackage[scale=0.78]{geometry}
+\usepackage{lmodern}
 \setlength{\footskip}{15pt}                           
-% \setlength{\hintscolumnwidth}{2cm}                  
-% \setlength{\makecvheadnamewidth}{8cm}                 
+\setlength{\hintscolumnwidth}{2cm}                  
+\setlength{\makecvheadnamewidth}{10cm}                 
 
 % personal data
 \name{Brian}{Roepke}
-\title{Data Science \& Analytics Leader}              
-% \address{Street}{Zip}{USA}                         
-% \phone[mobile]{+1~(555)~555~5555}                   
+\title{Data Science \& Analytics Leader}
 \email{brian@dataknowsall.com}
 \homepage{www.dataknowsall.com}
 
 % Social icons
 \social[linkedin]{broepke}
 \social[twitter]{@broepke}
-\social[github]{broepke}
+\social[github]{broepke} 
 
 
 \begin{document}
-\makecvtitle
+\maketitle
 
-I lead an Analytics \& Insights team for a large cloud platform. We are a group of passionate Data Scientists and Analysts that enable data-driven decision-making through insights that optimize the platform's business, product, and cost. \\
+\vspace{-6ex}
+I lead an Analytics \& Insights team for a large cloud platform. We are a group of passionate Data Scientists and Analysts that enable data-driven decision-making through insights that optimize the platform's business, product, and cost.  I have an extensive background in Product Management that I leverage to deliver everything I do, from Data Sets, to ML pipelines, to Dashboards as products. I am a certified practitioner of Human-Centered Design and love utilizing its methods and techniques to bring out the best in people and build the most innovative, inclusive solutions. I focus on delivering high value, great user experience, and the right outcomes.
 
-I am a certified practitioner of Human-Centered Design and love utilizing its methods and techniques to bring out the best in people and build the most innovative, inclusive solutions. I have a long history in Product Management that I leverage to deliver everything I do, from ML pipelines to Dashboards as products. I focus on delivering high value, great user experience, and the right outcomes. I'm passionate about diversity and inclusion and a curious, lifelong learner.
+
 \section{Experience}
-\cventry{2021--Present}{Director, Analytics \& Insights}{Autodesk, Inc.}{San Francisco, CA}{}{Formed a new Data Science and Analytics practice from scratch, enabling data-driven decision making across the company's cloud platform.\newline{}
-\begin{itemize}
-\item Delivered ELT data pipelines for the company's API traffic handling 100's of billions of calls and tens of terabytes of data.
-\item Led the creation of new analytics tools for the instrumentation and onboarding of web services to the analytics stack.
-\item Drove multiple cost savings initiatives around the utilization of public cloud resources identifying millions of dollars in opportunity.\newline{}
-\end{itemize}}
-\cventry{2016--2021}{Sr. Director, Head of Product}{Autodesk}{San Francisco}{}{Led the creation of a multi-year strategy and roadmap for the cloud platform, including reusable capabilities, a differentiated data strategy, and a developer ecosystem.\newline{}
-\begin{itemize}
-\item Raised customer trust in the platform by launching a SaaS Excellence program used by 4,000+ developers while scaling platform utilization 10x over 36 months. 
-\item Grew developer ecosystem 300\% over 36 months across second-and-third parties.
-\item Led the creation of data services that currently manage 90\% of Autodesk data.
-\item Transformed execution and operations, bringing a customer-centered "Platform as a Product" approach leveraging Scaled Agile and growing a Product organization of over 100 Product Managers, Designers, Researchers, Developer Advocates, and Data Analysts.\newline{}
-\end{itemize}}
-\cventry{2012--2016}{Sr. Director, Product Lifecycle Mgmt}{Autodesk}{San Francisco}{}{Leader of product organization launching disruptive SaaS Product Lifecycle Management applications.\newline{}
-\begin{itemize}
-\item Grew from 0 to 10,000+ Enterprise Users with 98\% retention rates in 36 months.
-\item Grew Customer Accounts by 125\% in 12 months via targeted Strategic Alliances.
-\item Led product strategy for five acquisitions across PLM, IoT, and CTO.
-\item Lead a team of 250 people through agile transformation improving customer-centricity.\newline{}
-\end{itemize}}
-\cventry{2001--2012}{Product Management Leader}{Autodesk}{Portland, OR}{}{Grew a product line from zero to \$50M with 500K users globally. Led the development of Go-to-Market strategies for Data Management applications in the Manufacturing space driving high growth in multiple strategic regions. Grew revenue 150\%+ Y/Y. Grew channel partners selling the product line by 500\%.\newline{}}
-\cventry{1999--2001}{Founder and CEO}{truEInnovations, Inc.}{Eagan, MN}{}{Founded a startup developing data/document management solutions for manufacturers--The GitHub for Mechanical Engineers. Acquired by Autodesk in December of 2002. Our product later became one of the most widely adopted products by Autodesk Customers.\newline{}}
+\cventry{2021--Present}{Director, Analytics \& Insights}{Autodesk, Inc.}{San Francisco, CA}{}{Formed a new Data Science and Analytics practice from scratch, enabling data-driven decision making across the company's cloud platform.}
+\cvlistitem{Led the transformation to a data drivent organization through the operationalizing of KPIs and metrics for the Office of the CTO.}
+\cvlistitem{Delivered new analytics tools for the instrumentation and onboarding of web services to the analytics stack.}
+\cvlistitem{Drove the standardization of a modern data stack based on Snowflake, Airflow, Fivetran, and Looker}
+\cvlistitem{Drove multiple cost savings initiatives around the utilization of public cloud resources identifying millions of dollars in opportunity}
+
+\cventry{2016--2021}{Sr. Director, Head of Product}{Autodesk}{San Francisco}{}{Led the creation of a multi-year strategy and roadmap for the cloud platform, including reusable capabilities, a differentiated data strategy, and a developer ecosystem}
+\cvlistitem{Raised customer trust in the platform by launching a SaaS Excellence program used by 4,000+ developers while scaling platform utilization 10x over 36 months}
+\cvlistitem{Grew developer ecosystem 300\% over 36 months across second-and-third parties}
+\cvlistitem{Transformed execution and operations, bringing a customer-centered "Platform as a Product" approach leveraging Scaled Agile and growing a Product organization of 120 Product Managers, Designers, Researchers, Developer Advocates, and Data Analysts}
+
+\cventry{2012--2016}{Sr. Director, Product Lifecycle Mgmt}{Autodesk}{San Francisco}{}{Leader of product organization launching disruptive SaaS Product Lifecycle Management applications}
+\cvlistitem{Lead a team of 250 people through agile transformation improving customer-centricity}
+\cvlistitem{Grew from 0 to 10,000+ Enterprise Users with 98\% retention rates in 36 months}
+\cvlistitem{Led five acquisitions across Product Lifecycle Management, Internet of Things, and Configure To Order}
+
+\cventry{2001--2012}{Product Management Leader}{Autodesk}{Portland, OR}{}{Grew a product line from zero to \$50M with 500K users globally. Led the development of Go-to-Market strategies for Data Management applications in the Manufacturing space driving high growth in multiple strategic regions. Grew revenue 150\%+ Y/Y. Grew channel partners selling the product line by 500\%}
+
+\cventry{1999--2001}{Founder and CEO}{truEInnovations, Inc.}{Eagan, MN}{}{Founded a startup developing data/document management solutions for manufacturers--The GitHub for Mechanical Engineers. Acquired by Autodesk in December of 2002. Our product later became one of the most widely adopted products by Autodesk Customers}
 
 \section{Skills}
 \cvskillhead[-0.1em]
-\cvskillentry*{Programming:}{4}{Python}{5}{My Goto language for Data Science and generalized programming}
-\cvskillentry{}{4}{SQL}{10}{Extensive experience working with SQL including Schema design}
-\cvskillentry{}{3}{R}{2}{Utilized R on multiple projects including work with NLP libraries}
-\cvskillentry*{Artificial Intelligence:}{4}{ML}{3}{Regression and classification models with both supervised and unsupervised methods.}
-\cvskillentry*{}{3}{NLP}{3}{NLP techniques such as TF-IDF, Topic Modeling, and Sentiment Analysis}
+\cvskillentry*{Coding}{3}{Python}{5}{My default for Data Science and generalized programming}
+\cvskillentry{}{4}{SQL}{5}{Experience working with SQL including Schema design}
+\cvskillentry{}{2}{R}{2}{Utilized R on multiple projects including EDA, ML, and NLP}
+\cvskillentry*{A.I.}{4}{ML}{3}{Experience with both supervised and unsupervised methods}
+\cvskillentry{}{3}{NLP}{3}{NLP techniques such as Topic Modeling, and Sentiment Analysis}
 \cvskillentry*{Methods:}{5}{PM}{20}{Deep experience in Product Management and leading PM teams}
-\cvskillentry*{}{5}{Agile}{12}{Depth in Agile practices including team tranformation}
-\cvskillentry*{}{4}{UX}{10}{Certfied Facilitator in Human Centered Design and Design Thinking}
+\cvskillentry{}{5}{Agile}{12}{Depth in Agile practices including team tranformation}
+\cvskillentry{}{3}{UX}{10}{Certfied Facilitator in Human Centered Design and Design Thinking}
+% add the legend to the matrix
+% \cvskilllegend*[1em]{}
+
+% \section{Skills}
+% \cvline{Dev}{Python, SQL, R}
+% \cvline{AI}{ML, NLP}
+% \cvline{Methods}{Product Management, Agile/SCRUM, UX, Research}
+
+\section{Skills}
+\cvcomputer{Coding}{Python, SQL, R}{Artificial Intelligence}{ML, NLP}
+\cvcomputer{BI}{Looker, PowerBI, Tableau}{Methods}{Product Management, Agile/SCRUM, UX, Research}
 
 \section{Education}
-\cventry{2020--2021}{BSc Data Analytics}{Golden Gate University}{San Francisco, CA}{\textit{4.0}}{Summa Cum Laude}  % arguments 3 to 6 can be left empty
-\cventry{1995--1996}{AA Machine Tool Processes}{Saint Paul College}{St. Paul, MN}{\textit{4.0}}{}
+\cventry{2020--2021}{BSc Data Analytics}{Golden Gate University}{San Francisco, CA}{\textit{4.0}}{Summa Cum Laude}
+
 
 \section{Certifications}
-\cvitem{\textbullet}{Certified Facilitator of Human-Centered Design from LUMA Institute}
+\cvitem{\textbullet}{Certified Facilitator of Human-Centered Design from the LUMA Institute}
 \cvitem{\textbullet}{Digital Product Management from Boston University}
 \cvitem{\textbullet}{Data Science MicroMasters from UC San Diego}
 \cvitem{\textbullet}{Agile Project Management from University System of Maryland}
